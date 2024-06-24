@@ -16,11 +16,11 @@
     });
 
     $('.slick-slideshow').slick({
-      autoplay: true,
+      autoplay: false,
       infinite: true,
       arrows: false,
       fade: true,
-      dots: true,
+      dots: false,
     });
 
     $('.slick-testimonial').slick({
