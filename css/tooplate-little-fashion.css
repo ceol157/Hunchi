@@ -12,11 +12,11 @@ https://www.tooplate.com/view/2127-little-fashion
 -----------------------------------------*/
 :root {
   --white-color:                #FFFFFF;
-  --primary-color: #00ff22;
-  --section-bg-color:           #f0f8ff;
+  --primary-color:              #6F903D;
+  --section-bg-color:           #faf4e8;
   --dark-color:                 #000000;
   --grey-color:                 #d0d1d1;
-  --p-color:                    #717275;
+  --p-color:                    #202020;
 
   --body-font-family:           'Inter', sans-serif;
 
@@ -26,7 +26,7 @@ https://www.tooplate.com/view/2127-little-fashion
   --product-link-font-size:     14px;
   --custom-link-font-size:      12px;
 
-  --font-weight-thin:           100;
+  --font-weight-thin:           300;
   --font-weight-light:          300;
   --font-weight-normal:         400;
   --font-weight-bold:           700;
