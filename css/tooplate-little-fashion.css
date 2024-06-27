@@ -17,6 +17,7 @@ https://www.tooplate.com/view/2127-little-fashion
   --dark-color:                 #000000;
   --grey-color:                 #d0d1d1;
   --beige-color:                 #faf4e8;
+  --light-green:                #ccdbb6;
 
   --p-color:                    #202020;
 
@@ -482,7 +483,7 @@ strong {
   SITE HEADER              
 -----------------------------------------*/
 .site-header {
-  background-color: var(--section-bg-color);
+  background-color: var(--light-green);
   position: relative;
   overflow: hidden;
   margin-top: 86px;
@@ -545,6 +546,14 @@ strong {
 }
 
 .slick-bottom .container {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+
+.slick-bottom .container-green {
+  background: var(--primary-color);
   position: absolute;
   top: 40%;
   left: 50%;
@@ -800,6 +809,14 @@ button:focus:not(:focus-visible) {
 -----------------------------------------*/
 .team {
   background: var(--beige-color);
+}
+
+.faq{
+  background: var(--beige-color);
+}
+
+.faq .container1{
+  background: var(--light-green);
 }
 
 .team-thumb {
